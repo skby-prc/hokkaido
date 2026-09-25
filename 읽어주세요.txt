@@ -1,0 +1,9 @@
+이 폴더를 그대로 웹에 올리면, 페이지가 열릴 때마다 open-meteo에서 실시간 날씨(1시간 단위)를 직접 받아옵니다. Claude 사용량은 들지 않습니다.
+
+[GitHub Pages로 올리는 법 · 약 5분]
+1. github.com 가입(무료) → 오른쪽 위 + → New repository → 이름 예: hokkaido → Public → Create
+2. 저장소 화면에서 "uploading an existing file" 클릭 → 이 폴더 안의 파일 전부(index.html, pret.woff2, img 폴더)를 끌어다 놓기 → Commit changes
+3. Settings → Pages → Branch: main / (root) → Save
+4. 1–2분 뒤 https://<아이디>.github.io/hokkaido/ 주소로 접속 → 가족에게 이 주소 공유
+
+날씨 영역 위에 "실시간 예보 · open-meteo"라고 초록색으로 뜨면 정상입니다.
